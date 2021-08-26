@@ -1,6 +1,11 @@
 <?php
 
-use Illuminate\Http\Request;
+use App\Http\Controllers\Auth\ForgotPasswordController;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\LogoutController;
+use App\Http\Controllers\Auth\MeController;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Auth\ResetPasswordController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +19,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::post('login', LoginController::class);
+Route::post('register', RegisterController::class);
+Route::post('forgot', ForgotPasswordController::class);
+Route::post('reset', ResetPasswordController::class);
+
+Route::group(['middleware' => 'auth:sanctum'], function () {
+    Route::get('me', MeController::class);
+    Route::post('logout', LogoutController::class);
+});
+
+Route::fallback(function(){
+	return abort(404);
 });
