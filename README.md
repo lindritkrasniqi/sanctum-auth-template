@@ -9,10 +9,11 @@
 
 ## About this repository
 
-This repository provides a simple Laravel API's authentication with Sanctum package. You can fork this repository for your backend application and olso if you are familiar with Nuxt.js, you can use even frontend repositoreis on links below.
+This repository provides a simple Laravel API's authentication with Sanctum package. You can fork this repository for your backend application and olso if you are familiar with NuxtJS or Vue, you can use even frontend repositoreis on links below.
 
-- Nuxt.js with Vuetify [repository](https://github.com/lindritkrasniqi/nuxt-vuetify),
-- Nuxt.js with BootstrapVue [repository](https://github.com/lindritkrasniqi/nuxt-bootstrap),
+- NuxtJS with Vuetify [repository](https://github.com/lindritkrasniqi/nuxt-vuetify),
+- NuxtJS with BootstrapVue [repository](https://github.com/lindritkrasniqi/nuxt-bootstrap),
+- Vue 3 with Bootstrap 5 [repository](https://github.com/lindritkrasniqi/vue-3),
 - API's [docs](https://postman.com/lindritkrasniqi/workspace/sanctum-auth) with Postman.
 
 
