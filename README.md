@@ -14,6 +14,7 @@ This repository provides a simple Laravel API's authentication with Sanctum pack
 - NuxtJS with Vuetify [repository](https://github.com/lindritkrasniqi/nuxt-vuetify),
 - NuxtJS with BootstrapVue [repository](https://github.com/lindritkrasniqi/nuxt-bootstrap),
 - Vue 3 with Bootstrap 5 [repository](https://github.com/lindritkrasniqi/vue-3),
+- PWA with Ionic and Vue 3 [repository](https://github.com/lindritkrasniqi/pwa-with-ionic-and-vue),
 - API's [docs](https://postman.com/lindritkrasniqi/workspace/sanctum-auth) with Postman.
 
 
